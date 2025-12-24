@@ -54,22 +54,32 @@ img {
     font-weight: bold;
 }
 
-/* MOBILE RESPONSIVE */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 24px;
-    }
+.center-text {
+    text-align: center;
+}
 
-    p {
-        font-size: 16px;
-    }
 
-    .card {
-        width: 100%;
-        max-width: 280px;
-    }
+/* TEAM MEMBERS CARD DESIGN */
+.team-card {
+    max-width: 900px;
+    margin: 60px auto 40px;
+    padding: 35px 25px;
+    background: linear-gradient(135deg, #6d4c41, #4e342e);
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
 
-    .btn {
-        width: 80%;
-    }
+.team-card h2 {
+    color: #ffcc80;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.team-list {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-align: center;
 }
