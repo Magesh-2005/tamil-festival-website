@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff3e0;
+    background: linear-gradient(rgba(255,243,224,0.9), rgba(255,243,224,0.9)),
+                url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -13,23 +16,25 @@ h1 {
 p {
     text-align: justify;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
+    margin: 20px;
 }
 
 img {
-    width: 300px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
     margin: 15px 0;
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #e65100;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 6px;
+    margin: 15px 0;
 }
 
 .card-container {
@@ -39,13 +44,32 @@ img {
     gap: 20px;
 }
 
-
 .card {
     background-color: #ffcc80;
     padding: 20px;
+    width: 200px;
+    border-radius: 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    border-radius: 10px;
-    width: 150px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .btn {
+        width: 80%;
+    }
 }
