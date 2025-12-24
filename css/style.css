@@ -14,7 +14,7 @@ h1 {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     line-height: 1.8;
     margin: 20px;
@@ -54,9 +54,6 @@ img {
     font-weight: bold;
 }
 
-.center-text {
-    text-align: center;
-}
 
 
 /* TEAM MEMBERS CARD DESIGN */
